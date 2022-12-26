@@ -1,0 +1,10 @@
+[package]
+name = "class_parser"
+version = "0.1.2"
+edition = "2021"
+
+[dependencies]
+byteorder = "1"
+class = { path = "../class" }
+thiserror = "1.0"
+

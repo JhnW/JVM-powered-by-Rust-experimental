@@ -1,0 +1,8 @@
+[env]
+TEST_RESOURCES_PATH = { value = "resources", relative = true }
+
+[build]
+rustflags = ["-D", "warnings"] #TODO: move to release profile when profile-rustflags will be ready
+
+[alias]
+release = "clippy --release"
